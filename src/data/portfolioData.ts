@@ -293,7 +293,7 @@ export const initialCertificates: Certificate[] = [
     issueDate: "2021-04-10",
     expiryDate: "2026-04-10",
     credentialUrl: "https://www.larsentoubro.com",
-    imageUrl: "/random.png",
+    imageUrl: "/main-pic-no-bg.png",
     category: "atl",
     type: "non-tech",
     tags: ["Value Engineer", "PLC", "Effective Meetings", "Problem Solving", "Leadership"]
