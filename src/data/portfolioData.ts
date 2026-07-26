@@ -422,7 +422,18 @@ export const initialCertificates: Certificate[] = [
     type: "tech",
     tags: ["Web Development", "Full Stack"]
   }
-  
+  ,
+  {
+    id: "cert-21",
+    title: "SQL Microcourse Certification",
+    issuer: "Satish Dhawale",
+    issueDate: "2026-07-24",
+    credentialUrl: "skillcourse.in",
+    imageUrl: "/SQL Certificate.png",
+    category: "technical",
+    type: "tech",
+    tags: ["SQL", "Database", "MySQL"]
+  }
 ];
 
 export const skillList: Skill[] = [
