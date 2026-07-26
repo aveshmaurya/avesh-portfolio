@@ -207,9 +207,8 @@ export const initialCertificates: Certificate[] = [
     title: "Introduction to Data Science",
     issuer: "Infosys Springboard",
     issueDate: "2023-05-10",
-    expiryDate: "2028-05-10",
     credentialUrl: "https://infosysspringboard.onwingspan.com/",
-    imageUrl: "/main-pic-no-bg.png",
+    imageUrl: "/Infosys data Science.png",
     category: "technical",
     type: "tech",
     tags: ["Data Science", "Python", "Analytics", "Infosys"]
@@ -219,9 +218,8 @@ export const initialCertificates: Certificate[] = [
     title: "Supply Chain Operations Academy",
     issuer: "Flipkart (SCOA)",
     issueDate: "2023-08-15",
-    expiryDate: "2026-08-15",
     credentialUrl: "https://www.flipkart.com/",
-    imageUrl: "/main-pic-no-bg.png",
+    imageUrl: "/Flipkart SCOA.png",
     category: "non-tech",
     type: "non-tech",
     tags: ["Supply Chain", "Logistics", "Operations", "Flipkart"]
@@ -230,10 +228,9 @@ export const initialCertificates: Certificate[] = [
     id: "cert-3",
     title: "Cyber Security Awareness",
     issuer: "Cyber Security Training Institute",
-    issueDate: "2023-09-01",
-    expiryDate: "2025-09-01",
+    issueDate: "2020-04-05",
     credentialUrl: "https://example.com/cert/cyber",
-    imageUrl: "/main-pic-no-bg.png",
+    imageUrl: "/Cyber Awarness.png",
     category: "technical",
     type: "tech",
     tags: ["Cyber Security", "Network Safety", "Encryption"]
@@ -243,9 +240,8 @@ export const initialCertificates: Certificate[] = [
     title: "Web Technology Internship",
     issuer: "CodSoft",
     issueDate: "2023-10-01",
-    expiryDate: "2023-11-30",
-    credentialUrl: "https://www.codsoft.in/",
-    imageUrl: "/main-pic-no-bg.png",
+    credentialUrl: "https://www.codsoft.in",
+    imageUrl: "/Codsoft.png",
     category: "internship",
     type: "tech",
     tags: ["Web Development", "Java", "Full Stack", "CodSoft"]
@@ -255,9 +251,8 @@ export const initialCertificates: Certificate[] = [
     title: "LLM For Young Developers Foundational Course",
     issuer: "AI Developer Community",
     issueDate: "2024-01-15",
-    expiryDate: "2029-01-15",
     credentialUrl: "https://example.com/cert/llm",
-    imageUrl: "/main-pic-no-bg.png",
+    imageUrl: "/LLM FOR Young Developers.png",
     category: "technical",
     type: "tech",
     tags: ["LLM", "Generative AI", "Prompts", "Machine Learning"]
@@ -267,9 +262,8 @@ export const initialCertificates: Certificate[] = [
     title: "AI Skills Passport",
     issuer: "EY & Microsoft",
     issueDate: "2024-02-20",
-    expiryDate: "2027-02-20",
     credentialUrl: "https://www.ey.com/en_gl/microsoft",
-    imageUrl: "/main-pic-no-bg.png",
+    imageUrl: "/EY Skill Couse Passport.png",
     category: "technical",
     type: "tech",
     tags: ["Artificial Intelligence", "EY", "Microsoft", "Azure AI"]
@@ -279,9 +273,8 @@ export const initialCertificates: Certificate[] = [
     title: "Web Hosting & Cloud Internship",
     issuer: "PROHOSTY WEB HOSTING",
     issueDate: "2023-12-01",
-    expiryDate: "2024-02-28",
     credentialUrl: "https://prohosty.com",
-    imageUrl: "/main-pic-no-bg.png",
+    imageUrl: "/Prohosty.png",
     category: "internship",
     type: "tech",
     tags: ["Cloud Hosting", "Web Logic", "Tomcat", "DevOps"]
@@ -290,14 +283,146 @@ export const initialCertificates: Certificate[] = [
     id: "cert-8",
     title: "ATL Certification: Value Engineer & Positive Mindset",
     issuer: "Larsen & Toubro / ATL Training",
-    issueDate: "2021-04-10",
-    expiryDate: "2026-04-10",
+    issueDate: "2021-04-08",
     credentialUrl: "https://www.larsentoubro.com",
-    imageUrl: "/main-pic-no-bg.png",
+    imageUrl: "/Value Engineer.png",
     category: "atl",
     type: "non-tech",
     tags: ["Value Engineer", "PLC", "Effective Meetings", "Problem Solving", "Leadership"]
+  },
+  {
+    id: "cert-9",
+    title: "ATL Certification In 5S Methodology.pdf",
+    issuer: "Larsen & Toubro / ATL Training",
+    issueDate: "2020-04-11",
+    credentialUrl: "https://www.larsentoubro.com",
+    imageUrl: "/5S Methology.png",
+    category: "atl",
+    type: "non-tech",
+    tags: ["Certification in 5S Methodology"]
+  },
+  {
+    id: "cert-10",
+    title: "ATL Certification: Certification in Six Sigma ",
+    issuer: "Larsen & Toubro / ATL Training",
+    issueDate: "2020-04-12",
+    credentialUrl: "https://www.larsentoubro.com",
+    imageUrl: "/Six Sigm.png",
+    category: "atl",
+    type: "non-tech",
+    tags: ["Certification in Six Sigma"]
+  },
+  {
+    id: "cert-11",
+    title: "ATL Certification:Collaboration - Working with different set of teams ",
+    issuer: "Larsen & Toubro / ATL Training",
+    issueDate: "2020-04-13",
+    credentialUrl: "https://www.larsentoubro.com",
+    imageUrl: "/Collaboration.png",
+    category: "atl",
+    type: "non-tech",
+    tags: ["Collaboration","Teamwork","Leadership"]
+  },
+  {
+    id: "cert-12",
+    title: "ATL Certification:Competency Certification in Adaptability ",
+    issuer: "Larsen & Toubro / ATL Training",
+    issueDate: "2020-04-14",
+    credentialUrl: "https://www.larsentoubro.com",
+    imageUrl: "/Competency Adaptibilty.png",
+    category: "atl",
+    type: "non-tech",
+    tags: ["Adaptability","Flexibility","Change Management"]
+  },
+  {
+    id: "cert-13",
+    title: "ATL Certification:Conflict Management - Effective way of handling the conflict management",
+    issuer: "Larsen & Toubro / ATL Training",
+    issueDate: "2020-04-15",
+    credentialUrl: "https://www.larsentoubro.com",
+    imageUrl: "/Conflict Management.png",
+    category: "atl",
+    type: "non-tech",
+    tags: ["Conflict Management","Communication","Negotiation"]
+  },
+  {
+    id: "cert-14",
+    title: "ATL Certification:Effective Meeting Management - Planning and Effective Meeting Management ",
+    issuer: "Larsen & Toubro / ATL Training",
+    issueDate: "2020-04-18",
+    credentialUrl: "https://www.larsentoubro.com",
+    imageUrl: "/EFM.png",
+    category: "atl",
+    type: "non-tech",
+    tags: ["Planning and Effective Meeting Management"]
+  },
+  {
+    id: "cert-15",
+    title: "ATL Certification:Influencing - Process of influencing and its application",
+    issuer: "Larsen & Toubro / ATL Training",
+    issueDate: "2020-04-19",
+    credentialUrl: "https://www.larsentoubro.com",
+    imageUrl: "/Inflencing.png",
+    category: "atl",
+    type: "non-tech",
+    tags: ["Influencing", "Application"]
+  },
+  {
+    id: "cert-16",
+    title: "ATL Certification:Fundamentals of PLC ",
+    issuer: "Larsen & Toubro / ATL Training",
+    issueDate: "2020-04-21",
+    credentialUrl: "https://www.larsentoubro.com",
+    imageUrl: "/PLC.png",
+    category: "atl",
+    type: "tech",
+    tags: ["PLC","Fundamentals"]
+  },
+  {
+    id: "cert-17",
+    title: "ATL Certification:Positive mindset - Remain positive during adversaries and challenges",
+    issuer: "Larsen & Toubro / ATL Training",
+    issueDate: "2020-04-22",
+    credentialUrl: "https://www.larsentoubro.com",
+    imageUrl: "/Positive MindSet.png",
+    category: "atl",
+    type: "non-tech",
+    tags: ["Positive Mindset"]
+  },
+  {
+    id: "cert-18",
+    title: "ATL Certification:Problem Solving - Arriving at multiple solutions to a problem ",
+    issuer: "Larsen & Toubro / ATL Training",
+    issueDate: "2020-04-23",
+    credentialUrl: "https://www.larsentoubro.com",
+    imageUrl: "/Problem Solving.png",
+    category: "atl",
+    type: "non-tech",
+    tags: ["Problem Solving","Multiple Solutions"]
+  },
+  {
+    id: "cert-19",
+    title: "ATL Certification:Prevention of Sexual Harassment (PoSH) at Workplace",
+    issuer: "Larsen & Toubro / ATL Training",
+    issueDate: "2020-04-25",
+    credentialUrl: "https://www.larsentoubro.com",
+    imageUrl: "/POSH.png",
+    category: "atl",
+    type: "non-tech",
+    tags: ["POSH", "Workplace Safety", "Sexual Harassment Prevention"]
+  },
+  {
+    id: "cert-20",
+    title: "Herohosty Web Services PVT LTD - Internship Certificate",
+    issuer: "Herohosty Web Services PVT LTD",
+    issueDate: "2025-07-22",
+    credentialUrl: "contact@herohosty.com",
+    imageUrl: "/Herohosty.png",
+    category: "internship",
+    type: "tech",
+    tags: ["Web Development", "Full Stack"]
   }
+  
 ];
 
 export const skillList: Skill[] = [
@@ -361,12 +486,4 @@ export function getStoredCertificates(): Certificate[] {
     console.error("Failed to load certificates from local storage", e);
   }
   return initialCertificates;
-}
-
-export function saveCertificatesToStorage(certs: Certificate[]) {
-  try {
-    localStorage.setItem(CERTS_STORAGE_KEY, JSON.stringify(certs));
-  } catch (e) {
-    console.error("Failed to save certificates to local storage", e);
-  }
 }

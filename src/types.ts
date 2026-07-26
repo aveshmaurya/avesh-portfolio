@@ -47,8 +47,7 @@ export interface Certificate {
   id: string;
   title: string;
   issuer: string;
-  issueDate: string; // Start/Issue Date
-  expiryDate?: string; // End/Validity Date
+  issueDate: string;
   credentialUrl?: string;
   imageUrl?: string;
   category: 'technical' | 'internship' | 'atl' | 'tech' | 'non-tech';

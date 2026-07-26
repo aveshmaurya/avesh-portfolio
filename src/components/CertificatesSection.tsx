@@ -1,9 +1,8 @@
 import React, { useState, useMemo, useEffect } from 'react';
 import { Certificate } from '../types';
-import { getStoredCertificates, saveCertificatesToStorage } from '../data/portfolioData';
+import { getStoredCertificates } from '../data/portfolioData';
 import { CertificateModal } from './CertificateModal';
-import { CertificateUploadModal } from './CertificateUploadModal';
-import { Award, Search, Calendar, Filter, Upload, ExternalLink, ShieldCheck, Sparkles } from 'lucide-react';
+import { Award, Search, Calendar, Filter, ExternalLink, ShieldCheck } from 'lucide-react';
 
 export const CertificatesSection: React.FC = () => {
   const [certificates, setCertificates] = useState<Certificate[]>([]);
@@ -16,17 +15,10 @@ export const CertificatesSection: React.FC = () => {
 
   // Modals
   const [viewingCertificate, setViewingCertificate] = useState<Certificate | null>(null);
-  const [isUploadModalOpen, setIsUploadModalOpen] = useState<boolean>(false);
 
   useEffect(() => {
     setCertificates(getStoredCertificates());
   }, []);
-
-  const handleAddCertificate = (newCert: Certificate) => {
-    const updated = [newCert, ...certificates];
-    setCertificates(updated);
-    saveCertificatesToStorage(updated);
-  };
 
   const filteredCertificates = useMemo(() => {
     return certificates.filter((cert) => {
@@ -106,15 +98,6 @@ export const CertificatesSection: React.FC = () => {
                 </button>
               ))}
             </div>
-
-            {/* Action Button: Upload New Certificate */}
-            <button
-              onClick={() => setIsUploadModalOpen(true)}
-              className="w-full sm:w-auto px-5 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white text-xs font-bold flex items-center justify-center gap-2 shadow-sm transition-transform active:scale-95 shrink-0"
-            >
-              <Upload className="w-4 h-4" />
-              <span>Upload / Add Certificate</span>
-            </button>
 
           </div>
 
@@ -218,7 +201,6 @@ export const CertificatesSection: React.FC = () => {
                   <div className="absolute bottom-3 left-3 text-[11px] font-semibold text-white/90 flex items-center gap-1 bg-zinc-950/70 backdrop-blur-md px-2.5 py-0.5 rounded-md border border-white/10">
                     <Calendar className="w-3 h-3 text-amber-400" />
                     <span>Issued: {cert.issueDate}</span>
-                    {cert.expiryDate && <span>• Exp: {cert.expiryDate}</span>}
                   </div>
                 </div>
 
@@ -263,13 +245,6 @@ export const CertificatesSection: React.FC = () => {
         <CertificateModal
           certificate={viewingCertificate}
           onClose={() => setViewingCertificate(null)}
-        />
-
-        {/* Upload Modal */}
-        <CertificateUploadModal
-          isOpen={isUploadModalOpen}
-          onClose={() => setIsUploadModalOpen(false)}
-          onAddCertificate={handleAddCertificate}
         />
 
       </div>

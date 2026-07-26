@@ -64,8 +64,7 @@ export const CertificateModal: React.FC<CertificateModalProps> = ({ certificate,
               </span>
               <p className="text-sm font-bold text-zinc-800 dark:text-zinc-200 mt-0.5 flex items-center gap-1.5">
                 <Calendar className="w-4 h-4 text-blue-500" />
-                <span>Start: {certificate.issueDate}</span>
-                {certificate.expiryDate && <span>• End: {certificate.expiryDate}</span>}
+                <span>{certificate.issueDate}</span>
               </p>
             </div>
 
