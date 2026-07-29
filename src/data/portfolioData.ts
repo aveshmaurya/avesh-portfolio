@@ -3,7 +3,7 @@ import { PersonalProfile, Experience, Education, Project, Certificate, Skill } f
 export const personalProfile: PersonalProfile = {
   name: "Avesh Kumar Maurya",
   title: "Java Full Stack Developer",
-  email: "aveshkumarmaurya222@gmail.com",
+  email: "aveshmaurya1925@gmail.com",
   phone: "7380811900",
   location: "Noida, Uttar Pradesh, India",
   linkedin: "https://www.linkedin.com/in/aveshkumarmaurya/",
