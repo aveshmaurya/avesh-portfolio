@@ -63,7 +63,7 @@ export const Hero: React.FC<HeroProps> = ({ onNavigate, onOpenResume }) => {
                 Software Engineer
               </h1>
               <p className="text-base sm:text-lg text-zinc-600 dark:text-zinc-300 max-w-2xl mx-auto lg:mx-0 font-normal leading-relaxed">
-                Hi, I'm <strong className="font-bold text-zinc-900 dark:text-white">{personalProfile.name}</strong>. Detail-oriented Full Stack Engineer with 5 years of engineering operations background at L&T. Specialized in Java, Spring Boot, MySQL, and modern Web Applications.
+                Hi, I'm <strong className="font-bold text-zinc-900 dark:text-white">{personalProfile.name}</strong>. Detail-oriented Full Stack specialized in Java, Spring Boot, MySQL, and modern Web Applications.
               </p>
             </div>
 
@@ -143,8 +143,7 @@ export const Hero: React.FC<HeroProps> = ({ onNavigate, onOpenResume }) => {
                       <p className="font-bold text-xs text-white">Avesh Kumar Maurya</p>
                       <p className="text-[10px] text-zinc-300">Software Engineer</p>
                     </div>
-                    <span className="px-2.5 py-1 rounded-full bg-blue-600 text-[10px] font-bold tracking-wide">
-                      AKTU 2026
+                    <span className="">
                     </span>
                   </div>
                 </div>
@@ -154,10 +153,10 @@ export const Hero: React.FC<HeroProps> = ({ onNavigate, onOpenResume }) => {
                   <div className="bg-zinc-50 dark:bg-zinc-950 p-3 rounded-xl border border-zinc-200/60 dark:border-zinc-800/80">
                     <div className="flex items-center gap-1.5 text-blue-600 dark:text-blue-400 mb-0.5">
                       <Briefcase className="w-3.5 h-3.5" />
-                      <span className="text-xs font-bold text-zinc-900 dark:text-zinc-100">5 Years</span>
+                      <span className="text-xs font-bold text-zinc-900 dark:text-zinc-100"></span>
                     </div>
                     <span className="text-[10px] text-zinc-500 dark:text-zinc-400 block leading-tight">
-                      L&T Engineering Operations
+                      AKTU 2026 
                     </span>
                   </div>
 

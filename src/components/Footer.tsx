@@ -33,7 +33,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
             </div>
 
             <p className="text-xs text-zinc-400 leading-relaxed max-w-sm">
-              Detail-oriented Java Full Stack Engineer with 5 years of engineering operations background at L&T. Specialized in Java, Spring Boot, MySQL, and modern Web Applications.
+              Detail-oriented Java Full Stack,Specialized in Java, Spring Boot, MySQL,SQL and modern Web Applications.
             </p>
 
             <div className="flex items-center gap-3 pt-1">
