@@ -284,10 +284,10 @@ export const HomeView: React.FC<HomeViewProps> = ({
                 <span className="text-[11px] font-bold uppercase tracking-wider text-blue-100 ml-1">Google One Inspired Theme</span>
               </div>
               <h2 className="text-2xl sm:text-3xl font-extrabold tracking-tight text-white">
-                Ready to collaborate on your next project?
+                Contact Now
               </h2>
               <p className="text-xs sm:text-sm text-blue-100 leading-relaxed font-normal">
-                Available for full-time Software Engineer & Java Full Stack roles. Get in touch to discuss engineering opportunities.
+                Available for full-time Software Engineer & Java Full Stack roles. Get in touch to discuss your problem.
               </p>
             </div>
 
