@@ -49,10 +49,7 @@ export const Hero: React.FC<HeroProps> = ({ onNavigate, onOpenResume }) => {
             {/* Google One style Pill Badge with 4 Google Accent Colors */}
             <div className="inline-flex items-center gap-2.5 px-4 py-2 rounded-full bg-zinc-100/80 dark:bg-zinc-900/90 border border-zinc-200/80 dark:border-zinc-800 text-xs font-bold text-zinc-800 dark:text-zinc-200 shadow-xs">
               <div className="flex items-center gap-1">
-                <span className="w-2 h-2 rounded-full bg-[#4285F4]" /> {/* Google Blue */}
-                <span className="w-2 h-2 rounded-full bg-[#EA4335]" /> {/* Google Red */}
-                <span className="w-2 h-2 rounded-full bg-[#FBBC05]" /> {/* Google Yellow */}
-                <span className="w-2 h-2 rounded-full bg-[#34A853]" /> {/* Google Green */}
+                
               </div>
               <span className="tracking-wide">Software Engineer • Java Full Stack</span>
             </div>
