@@ -66,7 +66,6 @@ export const Navbar: React.FC<NavbarProps> = ({ activeSection, onNavigate, onOpe
           <div>
             <span className="font-bold text-zinc-900 dark:text-zinc-100 text-sm sm:text-base tracking-tight flex items-center gap-1.5">
               Avesh Kumar Maurya
-              <span className="inline-block w-2 h-2 rounded-full bg-emerald-500" title="Open to opportunities" />
             </span>
             <span className="text-[10px] font-semibold text-zinc-500 dark:text-zinc-400 block -mt-0.5 tracking-wider uppercase">
               Software Engineer

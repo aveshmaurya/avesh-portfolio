@@ -54,7 +54,7 @@ export const Hero: React.FC<HeroProps> = ({ onNavigate, onOpenResume }) => {
                 <span className="w-2 h-2 rounded-full bg-[#FBBC05]" /> {/* Google Yellow */}
                 <span className="w-2 h-2 rounded-full bg-[#34A853]" /> {/* Google Green */}
               </div>
-              <span className="tracking-wide">Software Engineer • Java  Full Stack</span>
+              <span className="tracking-wide">Software Engineer • Java Full Stack</span>
             </div>
 
             {/* Main Headline */}
