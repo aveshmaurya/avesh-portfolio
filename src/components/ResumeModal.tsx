@@ -18,7 +18,7 @@ export const ResumeModal: React.FC<ResumeModalProps> = ({ isOpen, onClose }) => 
 
   const handleCopyResumeText = () => {
     const text = `
-AVESHKUMAR MAURYA
+AVESH KUMAR MAURYA
 ${personalProfile.email} | ${personalProfile.phone} | ${personalProfile.location}
 LinkedIn: ${personalProfile.linkedin}
 
@@ -29,7 +29,7 @@ WORK EXPERIENCE
 ${initialExperiences.map(e => `${e.role} at ${e.company} (${e.period})\n- ${e.description}\n${e.responsibilities.map(r => `  * ${r}`).join('\n')}`).join('\n\n')}
 
 EDUCATION
-${educationList.map(edu => `${edu.degree} - ${edu.institution} (${edu.startDate.slice(0,4)} - ${edu.endDate.slice(0,4)})\n  ${edu.details}`).join('\n\n')}
+${educationList.map(edu => `${edu.degree} - ${edu.institution} (${edu.startDate.slice(0, 4)} - ${edu.endDate.slice(0, 4)})\n  ${edu.details}`).join('\n\n')}
 
 SKILLS
 ${skillList.map(s => s.name).join(', ')}
@@ -45,9 +45,9 @@ ${initialCertificates.map(c => `${c.title} - ${c.issuer} (${c.issueDate})`).join
 
   return (
     <div className="fixed inset-0 z-50 overflow-y-auto bg-zinc-950/85 backdrop-blur-md flex items-center justify-center p-4 sm:p-6 animate-in fade-in duration-200">
-      
+
       <div className="relative w-full max-w-4xl bg-white dark:bg-zinc-900 rounded-2xl border border-zinc-200 dark:border-zinc-800 shadow-2xl overflow-hidden my-8">
-        
+
         {/* Header */}
         <div className="flex items-center justify-between p-5 border-b border-zinc-200 dark:border-zinc-800 bg-zinc-50 dark:bg-zinc-950">
           <div className="flex items-center gap-2.5">
@@ -94,7 +94,7 @@ ${initialCertificates.map(c => `${c.title} - ${c.issuer} (${c.issueDate})`).join
 
         {/* Printable Resume Document Area */}
         <div className="p-8 max-h-[75vh] overflow-y-auto space-y-6 text-zinc-800 dark:text-zinc-200 font-sans print:p-0 print:max-h-none">
-          
+
           {/* Header Section */}
           <div className="border-b border-zinc-200 dark:border-zinc-800 pb-6 text-center sm:text-left">
             <h1 className="text-3xl font-extrabold text-zinc-900 dark:text-zinc-100 tracking-tight">
@@ -179,7 +179,7 @@ ${initialCertificates.map(c => `${c.title} - ${c.issuer} (${c.issueDate})`).join
                 <div key={edu.id} className="text-xs space-y-0.5">
                   <div className="flex justify-between font-bold text-zinc-900 dark:text-zinc-100">
                     <span>{edu.degree}</span>
-                    <span className="text-zinc-500">{edu.startDate.slice(0,4)} - {edu.endDate.slice(0,4)}</span>
+                    <span className="text-zinc-500">{edu.startDate.slice(0, 4)} - {edu.endDate.slice(0, 4)}</span>
                   </div>
                   <p className="text-zinc-600 dark:text-zinc-400">{edu.institution} ({edu.location})</p>
                   <p className="text-[11px] text-zinc-500">{edu.details}</p>
