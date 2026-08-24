@@ -320,7 +320,7 @@ export const initialCertificates: Certificate[] = [
     imageUrl: "/Collaboration.png",
     category: "atl",
     type: "non-tech",
-    tags: ["Collaboration","Teamwork","Leadership"]
+    tags: ["Collaboration", "Teamwork", "Leadership"]
   },
   {
     id: "cert-12",
@@ -331,7 +331,7 @@ export const initialCertificates: Certificate[] = [
     imageUrl: "/Competency Adaptibilty.png",
     category: "atl",
     type: "non-tech",
-    tags: ["Adaptability","Flexibility","Change Management"]
+    tags: ["Adaptability", "Flexibility", "Change Management"]
   },
   {
     id: "cert-13",
@@ -342,7 +342,7 @@ export const initialCertificates: Certificate[] = [
     imageUrl: "/Conflict Management.png",
     category: "atl",
     type: "non-tech",
-    tags: ["Conflict Management","Communication","Negotiation"]
+    tags: ["Conflict Management", "Communication", "Negotiation"]
   },
   {
     id: "cert-14",
@@ -375,7 +375,7 @@ export const initialCertificates: Certificate[] = [
     imageUrl: "/PLC.png",
     category: "atl",
     type: "tech",
-    tags: ["PLC","Fundamentals"]
+    tags: ["PLC", "Fundamentals"]
   },
   {
     id: "cert-17",
@@ -397,7 +397,7 @@ export const initialCertificates: Certificate[] = [
     imageUrl: "/Problem Solving.png",
     category: "atl",
     type: "non-tech",
-    tags: ["Problem Solving","Multiple Solutions"]
+    tags: ["Problem Solving", "Multiple Solutions"]
   },
   {
     id: "cert-19",
@@ -432,6 +432,18 @@ export const initialCertificates: Certificate[] = [
     category: "technical",
     type: "tech",
     tags: ["SQL", "Database", "MySQL"]
+  }
+  ,
+  {
+    id: "cert-22",
+    title: "S O Infotech LTD",
+    issuer: "SO INFOTECH LTD",
+    issueDate: "2026-01-22",
+    credentialUrl: "wwww.soinfotech.com",
+    imageUrl: "/Internship certifcate.png",
+    category: "technical",
+    type: "tech",
+    tags: ["Java", "Database", "MySQL"]
   }
 ];
 

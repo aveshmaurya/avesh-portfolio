@@ -6,7 +6,7 @@ export const ExperienceSection: React.FC = () => {
   return (
     <section id="experience" className="py-20 bg-zinc-50/50 dark:bg-zinc-900/30 border-y border-zinc-200/60 dark:border-zinc-800/80">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16 space-y-3">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 text-xs font-semibold tracking-wider uppercase">
@@ -17,19 +17,19 @@ export const ExperienceSection: React.FC = () => {
             Work Experience & Leadership
           </h2>
           <p className="text-sm sm:text-base text-zinc-600 dark:text-zinc-400 leading-relaxed">
-            Bridging 5 years of rigorous industrial engineering supervision at Larsen & Toubro with modern Java Full Stack web software engineering.
+            Bridging 5 years of rigorous industrial engineering supervision at Larsen & Toubro and Java Full Stack web software engineering.
           </p>
         </div>
 
         {/* Timeline Container */}
         <div className="relative max-w-4xl mx-auto">
-          
+
           {/* Vertical Timeline Bar */}
           <div className="hidden md:block absolute left-8 top-4 bottom-4 w-0.5 bg-gradient-to-b from-blue-500 via-indigo-500 to-zinc-300 dark:to-zinc-800" />
 
           <div className="space-y-10">
             {initialExperiences.map((exp, index) => (
-              <div 
+              <div
                 key={exp.id}
                 className="relative grid grid-cols-1 md:grid-cols-12 gap-6 items-start group"
               >
@@ -42,7 +42,7 @@ export const ExperienceSection: React.FC = () => {
 
                 {/* Experience Card */}
                 <div className="md:col-span-11 bg-white dark:bg-zinc-900 rounded-2xl p-6 sm:p-8 border border-zinc-200/80 dark:border-zinc-800 shadow-sm hover:shadow-md transition-all duration-300">
-                  
+
                   {/* Card Header Top */}
                   <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-4 border-b border-zinc-100 dark:border-zinc-800/80">
                     <div>
