@@ -15,6 +15,7 @@ export const personalProfile: PersonalProfile = {
 };
 
 export const initialExperiences: Experience[] = [
+
   {
     id: "exp-1",
     role: "Electrical Engineer",
@@ -201,6 +202,17 @@ export const projectList: Project[] = [
 ];
 
 export const initialCertificates: Certificate[] = [
+  {
+    id: "cert-22",
+    title: "S O Infotech LTD",
+    issuer: "SO INFOTECH LTD",
+    issueDate: "2026-01-22",
+    credentialUrl: "wwww.soinfotech.com",
+    imageUrl: "/Internship certifcate.png",
+    category: "technical",
+    type: "tech",
+    tags: ["Java", "Database", "MySQL"]
+  },
   {
     id: "cert-1",
     title: "Introduction to Data Science",
@@ -432,18 +444,6 @@ export const initialCertificates: Certificate[] = [
     category: "technical",
     type: "tech",
     tags: ["SQL", "Database", "MySQL"]
-  }
-  ,
-  {
-    id: "cert-22",
-    title: "S O Infotech LTD",
-    issuer: "SO INFOTECH LTD",
-    issueDate: "2026-01-22",
-    credentialUrl: "wwww.soinfotech.com",
-    imageUrl: "/Internship certifcate.png",
-    category: "technical",
-    type: "tech",
-    tags: ["Java", "Database", "MySQL"]
   }
 ];
 
