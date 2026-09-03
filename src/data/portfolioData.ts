@@ -445,6 +445,18 @@ export const initialCertificates: Certificate[] = [
     type: "tech",
     tags: ["SQL", "Database", "MySQL"]
   }
+  ,
+  {
+    id: "cert-22",
+    title: "CERTIFICATE OF COMPLETION",
+    issuer: "GreyLearn",
+    issueDate: "2026-09-03",
+    credentialUrl: "https://learn.greylearn.com",
+    imageUrl: "/Excel.png",
+    category: "technical",
+    type: "tech",
+    tags: ["Excel", "Database", "MySQL"]
+  }
 ];
 
 export const skillList: Skill[] = [
