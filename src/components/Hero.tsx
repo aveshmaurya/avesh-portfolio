@@ -1,15 +1,15 @@
 import React from 'react';
 import { personalProfile } from '../data/portfolioData';
 import { SectionId } from '../types';
-import { 
-  ArrowRight, 
-  Linkedin, 
-  Mail, 
-  Phone, 
-  MapPin, 
-  Download, 
-  Code2, 
-  Briefcase, 
+import {
+  ArrowRight,
+  Linkedin,
+  Mail,
+  Phone,
+  MapPin,
+  Download,
+  Code2,
+  Briefcase,
   Database,
   ShieldCheck,
   GitBranch,
@@ -39,17 +39,17 @@ export const Hero: React.FC<HeroProps> = ({ onNavigate, onOpenResume }) => {
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
-        
+
         {/* Hero Top Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-          
+
           {/* Left Main Intro */}
           <div className="lg:col-span-7 space-y-6 text-center lg:text-left">
-            
+
             {/* Google One style Pill Badge with 4 Google Accent Colors */}
             <div className="inline-flex items-center gap-2.5 px-4 py-2 rounded-full bg-zinc-100/80 dark:bg-zinc-900/90 border border-zinc-200/80 dark:border-zinc-800 text-xs font-bold text-zinc-800 dark:text-zinc-200 shadow-xs">
               <div className="flex items-center gap-1">
-                
+
               </div>
               <span className="tracking-wide">Software Engineer • Java Full Stack</span>
             </div>
@@ -60,7 +60,7 @@ export const Hero: React.FC<HeroProps> = ({ onNavigate, onOpenResume }) => {
                 Software Engineer
               </h1>
               <p className="text-base sm:text-lg text-zinc-600 dark:text-zinc-300 max-w-2xl mx-auto lg:mx-0 font-normal leading-relaxed">
-                Hi, I'm <strong className="font-bold text-zinc-900 dark:text-white">{personalProfile.name}</strong>. Detail-oriented Full Stack specialized in Java, Spring Boot, MySQL, and modern Web Applications.
+                Hi, I'm <strong className="font-bold text-zinc-900 dark:text-white">{personalProfile.name}</strong>. Detail-oriented Full Stack specialized in Python, Data Analyst, Power BI, SQL,Excel, Java, Spring Boot, MySQL, and modern Web Applications.
               </p>
             </div>
 
@@ -70,15 +70,15 @@ export const Hero: React.FC<HeroProps> = ({ onNavigate, onOpenResume }) => {
                 <MapPin className="w-3.5 h-3.5 text-blue-500" />
                 {personalProfile.location}
               </span>
-              <a 
-                href={`mailto:${personalProfile.email}`} 
+              <a
+                href={`mailto:${personalProfile.email}`}
                 className="flex items-center gap-1.5 bg-zinc-100/70 dark:bg-zinc-900/80 hover:bg-zinc-200/80 dark:hover:bg-zinc-800 px-3 py-1.5 rounded-full border border-zinc-200/60 dark:border-zinc-800 transition-colors"
               >
                 <Mail className="w-3.5 h-3.5 text-blue-500" />
                 {personalProfile.email}
               </a>
-              <a 
-                href={`tel:${personalProfile.phone}`} 
+              <a
+                href={`tel:${personalProfile.phone}`}
                 className="flex items-center gap-1.5 bg-zinc-100/70 dark:bg-zinc-900/80 hover:bg-zinc-200/80 dark:hover:bg-zinc-800 px-3 py-1.5 rounded-full border border-zinc-200/60 dark:border-zinc-800 transition-colors"
               >
                 <Phone className="w-3.5 h-3.5 text-blue-500" />
@@ -120,13 +120,13 @@ export const Hero: React.FC<HeroProps> = ({ onNavigate, onOpenResume }) => {
           {/* Right Profile Showcase Card */}
           <div className="lg:col-span-5 flex justify-center">
             <div className="relative w-full max-w-sm sm:max-w-md">
-              
+
               {/* Outer Subtle Accent Ring */}
               <div className="absolute -inset-1 bg-gradient-to-r from-blue-500 via-emerald-500 to-indigo-500 rounded-[2.5rem] blur-md opacity-30 dark:opacity-40" />
 
               {/* Main Rounded Google-Style Surface Card */}
               <div className="relative bg-white dark:bg-zinc-900 rounded-[2rem] p-5 border border-zinc-200/80 dark:border-zinc-800 shadow-xl overflow-hidden space-y-4">
-                
+
                 {/* Hero Portrait Photo */}
                 <div className="relative aspect-[4/3] w-full rounded-2xl overflow-hidden bg-zinc-100 dark:bg-zinc-800 border border-zinc-200 dark:border-zinc-700">
                   <img
@@ -153,7 +153,7 @@ export const Hero: React.FC<HeroProps> = ({ onNavigate, onOpenResume }) => {
                       <span className="text-xs font-bold text-zinc-900 dark:text-zinc-100"></span>
                     </div>
                     <span className="text-[10px] text-zinc-500 dark:text-zinc-400 block leading-tight">
-                      AKTU 2026 
+                      AKTU 2026
                     </span>
                   </div>
 
@@ -176,7 +176,7 @@ export const Hero: React.FC<HeroProps> = ({ onNavigate, onOpenResume }) => {
 
         {/* Google One Style Feature Highlight Cards */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 pt-4">
-          
+
           <div className="p-5 rounded-2xl bg-blue-50/50 dark:bg-blue-950/20 border border-blue-100 dark:border-blue-900/30 space-y-2 hover:border-blue-500/40 transition-colors">
             <div className="w-8 h-8 rounded-xl bg-blue-600 text-white flex items-center justify-center font-bold text-xs shadow-xs">
               <Code2 className="w-4 h-4" />
